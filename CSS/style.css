@@ -1,0 +1,43 @@
+body {
+font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
+font-size: 21pt; /* Размер основного шрифта в пунктах  */
+background-color: #f8f9fa; /* Цвет фона веб-страницы */
+color: #333; /* Цвет основного текста */ 
+}
+h1 {
+color: white;
+font-size: 30pt;
+background: linear-gradient(to bottom, #79ff00, #090979, #db75db);
+}
+h2 {
+color: white;
+background-color: #007bff;
+font-size: 30pt; /* Размер шрифта в пунктах */
+}
+header nav ul a:hover {
+color: blue; 
+padding: 1px;
+border-bottom: 2px solid red;
+}
+nav ul {
+list-style-type: none;
+text-align: center;
+line-height: 2.1;
+}
+main .intro {
+color:#fff;
+background-color: #007bff;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 450px;
+margin: 0 auto;
+}
+main .content .testing {
+color: yellowgreen;
+box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+background-color: white;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+}
